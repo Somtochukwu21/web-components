@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webpack Components</title>
+  </head>
+  <body>
+    <user-card
+      name="John Doe"
+      avatar="https://randomuser.me/api/portraits/men/71.jpg"
+    >
+      <div slot="email">johndoe@gmail.com</div>
+      <div slot="phone">555-555-555-5555</div></user-card
+    >
+    <user-card
+      name="Jane Doe"
+      avatar="https://randomuser.me/api/portraits/men/71.jpg"
+    >
+      <div slot="email">janedoe@gmail.com</div>
+      <div slot="phone">121-343-123-4566</div></user-card
+    >
+    <script src="./assets/javascript/index.js"></script>
+  </body>
 </html>
+
+<!-- https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca -->
